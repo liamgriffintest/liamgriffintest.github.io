@@ -10,4 +10,4 @@ And I hadn't studied for a big exam.
 
 test
 
-{% include footer.html %}
+{% include contact.html %}
