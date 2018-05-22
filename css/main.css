@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Marvin Visions Bold';
+    src: url('../assets/marvinvisions-bold-webfont.woff2') format('woff2'),
+         url('../assets/marvinvisions-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -33,11 +42,16 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
 ul.posts li {
     list-style: none;
+}
+
+h1 {
+  font-family: 'Marvin Visions Bold', cursive;
+
 }
